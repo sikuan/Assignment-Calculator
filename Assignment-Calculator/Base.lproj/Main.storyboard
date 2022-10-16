@@ -1237,7 +1237,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgZ-dE-2Zk">
                                                 <rect key="frame" x="630" y="0.0" width="174" height="70"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="70" id="H9f-7u-zFV"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="b0r-p7-9CE" userLabel="width =174"/>
                                                     <constraint firstAttribute="height" constant="70" id="lbO-IQ-MIZ"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.61568629740000003" green="0.70588237050000002" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1248,13 +1248,13 @@
                                                 </buttonConfiguration>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="H9f-7u-zFV"/>
+                                                        <exclude reference="b0r-p7-9CE"/>
                                                         <exclude reference="lbO-IQ-MIZ"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <mask key="constraints">
-                                                        <include reference="H9f-7u-zFV"/>
+                                                        <include reference="b0r-p7-9CE"/>
                                                         <include reference="lbO-IQ-MIZ"/>
                                                     </mask>
                                                 </variation>
@@ -1481,7 +1481,7 @@
                                                 <rect key="frame" x="630" y="0.0" width="174" height="70"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="70" id="0dX-ch-r64"/>
-                                                    <constraint firstAttribute="width" constant="70" id="eia-FT-0yt"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="YZE-Ag-WVt" userLabel="width = 174"/>
                                                 </constraints>
                                                 <color key="tintColor" red="0.61568629740000003" green="0.70588237050000002" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -1492,13 +1492,13 @@
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="0dX-ch-r64"/>
-                                                        <exclude reference="eia-FT-0yt"/>
+                                                        <exclude reference="YZE-Ag-WVt"/>
                                                     </mask>
                                                 </variation>
                                                 <variation key="heightClass=compact-widthClass=compact">
                                                     <mask key="constraints">
                                                         <include reference="0dX-ch-r64"/>
-                                                        <include reference="eia-FT-0yt"/>
+                                                        <include reference="YZE-Ag-WVt"/>
                                                     </mask>
                                                 </variation>
                                                 <connections>
@@ -1588,18 +1588,6 @@
                                 <exclude reference="jTU-GS-LsC"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="7W3-r7-xqO"/>
-                                <exclude reference="7hw-75-BdL"/>
-                                <exclude reference="T0Y-Lz-Uqw"/>
-                                <exclude reference="cpM-jg-6XM"/>
-                                <exclude reference="kke-z0-DWi"/>
-                                <exclude reference="nOd-Fu-LII"/>
-                                <exclude reference="oUd-sW-aPR"/>
-                                <exclude reference="Pqi-XS-fZh"/>
-                                <exclude reference="RMd-L8-usL"/>
-                                <exclude reference="UV4-p4-K5H"/>
-                                <exclude reference="WUS-8F-I2o"/>
-                                <exclude reference="cQX-gS-7ZS"/>
                                 <exclude reference="Gsq-pI-N0H"/>
                                 <exclude reference="trd-i5-QTu"/>
                                 <exclude reference="7Ir-82-dg5"/>
@@ -1607,10 +1595,22 @@
                                 <exclude reference="KsI-Kp-Aay"/>
                                 <exclude reference="WOK-sJ-SZb"/>
                                 <exclude reference="vmO-gh-odO"/>
+                                <exclude reference="cQX-gS-7ZS"/>
+                                <exclude reference="7W3-r7-xqO"/>
+                                <exclude reference="7hw-75-BdL"/>
+                                <exclude reference="T0Y-Lz-Uqw"/>
+                                <exclude reference="cpM-jg-6XM"/>
+                                <exclude reference="kke-z0-DWi"/>
+                                <exclude reference="nOd-Fu-LII"/>
+                                <exclude reference="oUd-sW-aPR"/>
                                 <exclude reference="WmZ-OM-s2L"/>
                                 <exclude reference="mgd-vr-moB"/>
                                 <exclude reference="FVR-06-vid"/>
                                 <exclude reference="dNZ-cc-9FY"/>
+                                <exclude reference="Pqi-XS-fZh"/>
+                                <exclude reference="RMd-L8-usL"/>
+                                <exclude reference="UV4-p4-K5H"/>
+                                <exclude reference="WUS-8F-I2o"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -1618,6 +1618,7 @@
                                 <include reference="jTU-GS-LsC"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="cQX-gS-7ZS"/>
                                 <include reference="7W3-r7-xqO"/>
                                 <include reference="T0Y-Lz-Uqw"/>
                                 <include reference="kke-z0-DWi"/>
@@ -1626,14 +1627,10 @@
                                 <include reference="RMd-L8-usL"/>
                                 <include reference="UV4-p4-K5H"/>
                                 <include reference="WUS-8F-I2o"/>
-                                <include reference="cQX-gS-7ZS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="7hw-75-BdL"/>
-                                <include reference="cpM-jg-6XM"/>
-                                <include reference="oUd-sW-aPR"/>
                                 <include reference="Gsq-pI-N0H"/>
                                 <include reference="trd-i5-QTu"/>
                                 <include reference="7Ir-82-dg5"/>
@@ -1641,6 +1638,9 @@
                                 <include reference="KsI-Kp-Aay"/>
                                 <include reference="WOK-sJ-SZb"/>
                                 <include reference="vmO-gh-odO"/>
+                                <include reference="7hw-75-BdL"/>
+                                <include reference="cpM-jg-6XM"/>
+                                <include reference="oUd-sW-aPR"/>
                                 <include reference="WmZ-OM-s2L"/>
                                 <include reference="mgd-vr-moB"/>
                                 <include reference="FVR-06-vid"/>
